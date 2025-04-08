@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #004d40;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+.intro {
+    background-color: #e0f7fa;
+    padding: 1rem;
+    border-radius: 5px;
+    margin: 1rem auto;
+    width: 80%;
+}
+
+.location-container {
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.loc-input {
+    margin: 10px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.search-button {
+    padding: 10px 20px;
+    background-color: #00796b;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #004d40;
+}
+
+.air-quality, .arr, .air-quality-status {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.component-container {
+    margin-top: 20px;
+}
+
+.component-names {
+    display: inline-block;
+    color: #004d40;
+}
+
+.component-val {
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+
+.error-msg {
+    color: red;
+}
+
+footer {
+    background-color: #004d40;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
